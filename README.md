@@ -22,19 +22,31 @@ Frontend/UI: Streamlit
 
 
 📁 Project Structure
-Plaintext
+
 cricket-win-predictor/
+
 ├── app/
+
 │   └── streamlit_app.py      # Dashboard UI
+
 ├── data/
+
 │   ├── raw/                  # Original CSV files
+
 │   └── processed/            # Cleaned data
+
 ├── models/
+
 │   └── cricket_win_model.h5  # Trained LSTM model
+
 ├── src/
+
 │   ├── data_pipeline.py      # Data cleaning script
+
 │   ├── train.py              # Model training script
+
 │   └── model.py              # LSTM Architecture
+
 └── README.md
 
 
@@ -60,6 +72,7 @@ streamlit run app/streamlit_app.py
 
 
 📊 Model Features
+
 The model predicts win probability based on:
 
 Current Score
